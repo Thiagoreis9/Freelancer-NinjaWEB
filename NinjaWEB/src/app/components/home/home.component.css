@@ -1,0 +1,122 @@
+.home-container{
+  width: 100vw;
+  height: calc(100vh - 80px);
+  max-height: 1080px;
+  min-height: 820px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  background-image: url("../../../assets/Site PC/HOME/HOME-Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.home-content{
+  width: 80%;
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.home-left{
+  width: 50%;
+  min-width: 550px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.home-logo img{
+  width: 90%;
+}
+
+.home-right{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-info{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.home-info p{
+  color: rgb(211, 211, 211);
+  font-size: 24px;
+  text-align: left;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.home-info h1{
+  color: #fff;
+  font-size: 56px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.home-container span{
+  color: #ca3f32;
+}
+
+.home-formulario, .formulario-contato{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-formulario{
+  position: relative;
+  width: 70%;
+  min-width: 450px;
+  height: 500px;
+  background-color: rgba(61, 61, 61, 0.3);
+  color: #fff;
+  gap: 40px;
+  padding: 20px;
+}
+
+.home-formulario img{
+  width: 100px;
+  position: absolute;
+  top:-25px;
+  right: -50px;
+}
+
+.home-formulario h1{
+  align-self: flex-start;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.formulario-contato{
+  width: 100%;
+}
+
+.formulario-contato input{
+  height: 60px;
+  width: calc(100% - 8%) ;
+  margin: 10px 0;
+  font-size: 22px;
+  padding: 0 4%;
+  background-color: #DCDCDC;
+  border: none;
+}
+
+.formulario-contato button{
+  height: 60px;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 32px;
+  padding: 1px 2px;
+  background-color: #2bff00;
+  border: none;
+  font-weight: bold;
+}

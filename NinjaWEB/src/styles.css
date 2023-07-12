@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #ff0000;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* Estilos para a barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem */
+}
+/* Estilos para o "pulgar" (a alça da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+  background-color: #ca3f32; /* Cor do "pulgar" */
+  border-radius: 0px 0px 5px 5px; /* Raio do "pulgar" */
+}
+/* Estilos para o fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor do fundo da barra de rolagem */
+}
+
