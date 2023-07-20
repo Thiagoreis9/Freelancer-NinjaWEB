@@ -90,7 +90,7 @@
   right: -50px;
 }
 
-.home-formulario h1{
+.home-formulario h1, legend{
   align-self: flex-start;
   font-size: 38px;
   font-weight: bold;
