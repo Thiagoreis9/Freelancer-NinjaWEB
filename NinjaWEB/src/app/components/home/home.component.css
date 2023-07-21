@@ -21,7 +21,7 @@
 }
 
 .home-left{
-  width: 49%;
+  width: 50%;
   min-width: 500px;
   height: 100%;
   display: flex;
@@ -34,7 +34,7 @@
 }
 
 .home-right{
-  width: 49%;
+  width: 50%;
   min-width: 500px;
   display: flex;
   justify-content: flex-end;
@@ -86,11 +86,11 @@
 .home-formulario img{
   width: 100px;
   position: absolute;
-  top:-25px;
+  top: -25px;
   right: -50px;
 }
 
-.home-formulario h1, legend{
+.home-formulario h1{
   align-self: flex-start;
   font-size: 38px;
   font-weight: bold;
@@ -119,16 +119,24 @@
   background-color: #2bff00;
   border: none;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.formulario-contato button:hover{
+  box-shadow: 1px 1px 12px 4px  #2bff00;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 1249px) {
-  
   .home-right{
     justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
   }
   .home-left{
     height: auto;
+    gap: 60px;
+    width: 100%
   }
   .home-container{
     max-height: none;
@@ -136,5 +144,26 @@
   }
   .home-content{
     justify-content: center;
+    gap: 100px;
+    padding-top: 80px;
   }
+  .home-info{
+    gap: 30px
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .home-left{
+    min-width: 200px;
+  }
+  .home-right{
+    min-width: 100px;
+    width: 100%;
+  }
+  .home-formulario{
+    min-width: 100px;
+    width: 100%;
+  }
+
+
 }
