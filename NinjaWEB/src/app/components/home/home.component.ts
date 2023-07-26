@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  submitForm():void{
+    console.log("Clicou em mim")
+  }
+
+  ngOnInit(): void {
+    const submitButton  =  document.querySelector('.submitCTA')
+
+    submitButton?.addEventListener('click', this.submitForm)
+  }
+
+
+
 }

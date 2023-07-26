@@ -2,6 +2,7 @@
   width: 100vw;
   height: calc(100vh - 80px);
   max-height: 1080px;
+  min-height: 820px;
   display: flex;
   justify-content: center;
   padding-top: 80px;
@@ -56,7 +57,7 @@
 
 .home-info h1{
   color: #fff;
-  font-size: 56px;
+  font-size: 52px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -164,6 +165,4 @@
     min-width: 100px;
     width: 100%;
   }
-
-
 }
